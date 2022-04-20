@@ -15,7 +15,7 @@ const ImageLinkForm = ({ onInputChange, onSubmit }) => {
             onChange={onInputChange}
           />
           <button
-            className="w-30 grow f4 link ph3 pv2 dib white pa4 br3 shadow-5"
+            className="w-25 grow f4 link ph3 pv2 dib white pa4 br3 shadow-5"
             style={{background: 'linear-gradient(to right, #FFEDBC, #ED4264)'}}
             onClick={onSubmit}
           >

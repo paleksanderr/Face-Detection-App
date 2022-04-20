@@ -15,7 +15,7 @@
     "path-browserify": "^1.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "4.0.3",
     "react-tilt": "^0.1.4",
     "react-tsparticles": "^2.0.6",
     "resolve-url": "^0.2.1",
@@ -36,7 +36,11 @@
     "path": false,
     "os": false
   },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,5 +56,8 @@
     ">0.2%",
     "not dead",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
 }
