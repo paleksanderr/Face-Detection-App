@@ -63,8 +63,8 @@ class App extends Component {
     {this.setState({ isSignedIn: false})}
     else if(route === 'home')
     {this.setState({ isSignedIn: true})}
-    
-    {this.setState({route: route}) }
+  
+    this.setState({route: route}) 
 }
   render(){
     const { isSignedIn, route, imageUrl, box } = this.state;
