@@ -80,7 +80,7 @@ const Tlo = () => {
             value: 0.5,
           },
           shape: {
-            type: "circle",
+            type: "none",
           },
           size: {
             value: { min: 1, max: 5 },
